@@ -20,3 +20,23 @@ Payment records related to user subscriptions are managed by the service. It off
 ---
 
 ## Project Structure
+
+## Project Structure
+
+```text
+COMP2001_PaymentService
+│
+├── app
+│   ├── main.py          # FastAPI application entry point
+│   ├── database.py      # Database connection
+│   ├── models.py        # SQLAlchemy database models
+│   ├── schemas.py       # Pydantic request/response schemas
+│   ├── crud.py          # Database operations
+│   ├── config.py        # Configuration settings
+│   └── auth.py          # Authentication support
+│
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
+```

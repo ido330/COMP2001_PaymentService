@@ -21,8 +21,6 @@ Payment records related to user subscriptions are managed by the service. It off
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 COMP2001_PaymentService
 │
